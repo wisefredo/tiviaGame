@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Trivia Game</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="javascript/triviaGame.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header id="Master">
+            <div>
+                <h1><font size="7" color="white">Sneaker Trivia/Reading Comprehension</h1>
+            </div>
+        </header>
+        <img src="">
+        <p>In the winter of 1985, something more than Michael Jordan was happening, something unknown to anyone -- even those who were paying attention. See, the shoe game has always been an extension of the game, a subtext of basketball's culture that made "Is it the shoes?" a plausible and legit question. The shoes helped define who our heroes were. That was a part of their third dimension. Clyde Frazier was Puma. George Gervin was Nike. Dr. J, Magic Johnson and Larry Bird not only wore Converse -- they were Converse. So when Jordan took to the "Air," he was defined as "Air Jordan". Thirty Two years later, the Jordan Brand continues strong in it's influence of the sneaker culture as well as pop culture.</p>
+        <p class="rules"><span id="time"></span> seconds to answer 4 questions about based on Reading Material</p>
+        <h1 class="rules">Reading Comprehension</h1>
+        <!-- *************************** -->
+        <p>What shoe's did Clyde Frazier wear?</p>
+        <div id="oneC">
+            <label class="radio-inline ">
+                <input class="one" type="radio" name="1" data-val="1">Nike</label>
+            <label class="radio-inline">
+                <input class="one" type="radio" name="1" data-val="2">Puma</label>
+            <label class="radio-inline">
+                <input class="one" type="radio" name="1" data-val="3">Adidas</label>
+        </div>
+        <!-- *************************** -->
+        <p>What shoe's did Dr. J wear?</p>
+        <div id="twoC">
+            <label class="radio-inline ">
+                <input class="two" type="radio" name="2" data-val="1">Converse</label>
+            <label class="radio-inline ">
+                <input class="two" type="radio" name="2" data-val="2">Keds</label>
+            <label class="radio-inline ">
+                <input class="two" type="radio" name="2" data-val="3">Sketchers</label>
+        </div>
+        <!-- *************************** -->
+        <p>What shoe's did Larry Bird and Magic Johnson wear?</p>
+        <div id="threeC">
+            <label class="radio-inline ">
+                <input class="three" type="radio" name="2" data-val="1">Converse</label>
+            <label class="radio-inline ">
+                <input class="three" type="radio" name="2" data-val="2">Keds</label>
+            <label class="radio-inline ">
+                <input class="three" type="radio" name="2" data-val="3">Sketchers</label>
+        </div>
+        <!-- *************************** -->
+        <p>What was Michael Jordan's nickname?</p>
+        <div id="fourC">
+            <label class="radio-inline ">
+                <input class="three" type="radio" name="2" data-val="1">Air</label>
+            <label class="radio-inline ">
+                <input class="three" type="radio" name="2" data-val="2">Flight</label>
+            <label class="radio-inline ">
+                <input class="three" type="radio" name="2" data-val="3">Superman</label>
+        </div>
+        <button id="submit">submit</button>
+        <!-- *************************** -->
+    </div>
+</body>
+
+</html>
